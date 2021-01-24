@@ -1,4 +1,4 @@
-// Create a function that takes a word in morse code (without spaces), and
+// Create a function that takes an array of words in morse code (without spaces), and
 // returns the decoded word from the dictionary of words. It can return
 // the first word that matches in the dictionary.
 
