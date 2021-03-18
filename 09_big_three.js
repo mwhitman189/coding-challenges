@@ -11,6 +11,8 @@ const getBigThree = (numsArr) => {
     } else if(num >= nextHighest) {
       thirdHighest = nextHighest;
       nextHighest = num;
+    } else if(num > thirdHighest) {
+      thirdHighest = num;
     }
   })
   console.log([thirdHighest, nextHighest, highest])
